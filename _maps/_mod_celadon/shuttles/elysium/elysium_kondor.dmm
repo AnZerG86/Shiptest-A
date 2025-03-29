@@ -1827,7 +1827,7 @@
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/plasteel/tech/grid/airless,
+/turf/open/floor/plasteel/tech/grid,
 /area/ship/engineering/electrical)
 "Pa" = (
 /obj/structure/bed/pod,
