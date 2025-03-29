@@ -360,6 +360,9 @@
 /obj/item/gps,
 /obj/effect/mob_spawn/human/corpse/cargo_tech,
 /obj/item/storage/belt/military,
+/obj/item/clothing/suit/armor/clip_trenchcoat{
+	armor = list("melee" = 35, "bullet" = 35, "laser" = 35, "energy" = 40, "bomb" = 25, "bio" = 0, "rad" = 0, "fire" = 50, "acid" = 50)
+	},
 /turf/open/floor/wood,
 /area/ruin/beach/treasure_cove)
 "nj" = (
@@ -663,15 +666,14 @@
 /obj/structure/table/reinforced{
 	color = "#c1b6a5"
 	},
-/obj/item/storage/box/ammo/c38{
-	pixel_x = 10;
-	pixel_y = 8
-	},
-/obj/item/storage/box/ammo/c38{
-	pixel_x = 10
-	},
 /obj/structure/sign/poster/contraband/energy_swords{
 	pixel_x = -32
+	},
+/obj/item/storage/box/ammo/a556_42,
+/obj/item/storage/box/ammo/a556_42,
+/obj/item/ammo_box/magazine/p16{
+	pixel_x = 7;
+	pixel_y = 2
 	},
 /turf/open/floor/concrete/slab_4,
 /area/ruin/beach/treasure_cove)
@@ -1128,6 +1130,7 @@
 /obj/structure/railing/wood{
 	layer = 3.1
 	},
+/mob/living/simple_animal/hostile/human/frontier/ranged/mosin/neutered,
 /turf/open/floor/plating{
 	icon_state = "platingdmg2"
 	},

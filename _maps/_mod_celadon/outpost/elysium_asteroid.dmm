@@ -6145,7 +6145,9 @@
 /obj/structure/railing/wood{
 	dir = 8
 	},
-/obj/structure/chair/sofa/olive/right/directional/west,
+/obj/structure/chair/sofa/olive/right/directional/west{
+	dir = 4
+	},
 /turf/open/floor/wood,
 /area/outpost/crew/library)
 "qc" = (

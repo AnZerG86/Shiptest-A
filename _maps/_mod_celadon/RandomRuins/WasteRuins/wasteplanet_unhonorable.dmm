@@ -375,14 +375,21 @@
 /turf/open/floor/plating/rust,
 /area/ruin/wasteplanet/wasteplanet_radiation/maint)
 "vV" = (
-/obj/item/clothing/head/helmet{
-	pixel_x = 1;
-	pixel_y = 7
-	},
-/obj/item/clothing/under/syndicate,
 /obj/structure/closet/radiation/empty{
 	anchored = 1
 	},
+/obj/item/clothing/under/syndicate/bloodred{
+	pixel_x = -2;
+	pixel_y = 1
+	},
+/obj/item/clothing/suit/armor/ngr{
+	pixel_x = 3;
+	pixel_y = -7
+	},
+/obj/item/clothing/head/helmet/ngr{
+	pixel_y = 5
+	},
+/obj/item/clothing/glasses/hud/security/sunglasses/ngr,
 /turf/open/floor/plating,
 /area/ruin/wasteplanet/wasteplanet_radiation/containment)
 "wn" = (

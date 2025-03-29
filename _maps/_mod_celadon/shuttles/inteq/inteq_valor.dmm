@@ -144,6 +144,7 @@
 /obj/item/pinpointer/crew,
 /obj/item/storage/belt/medical/webbing,
 /obj/item/storage/firstaid/regular,
+/obj/item/storage/pouch/medical,
 /turf/open/floor/plasteel/patterned/ridged,
 /area/ship/crew/office)
 "bx" = (
@@ -669,6 +670,7 @@
 /obj/item/pinpointer/crew,
 /obj/item/storage/belt/medical/webbing,
 /obj/item/storage/firstaid/regular,
+/obj/item/storage/pouch/medical,
 /turf/open/floor/plasteel/patterned/ridged,
 /area/ship/crew/office)
 "gb" = (
@@ -1448,6 +1450,7 @@
 /obj/item/pinpointer/crew,
 /obj/item/storage/belt/medical/webbing,
 /obj/item/storage/firstaid/regular,
+/obj/item/storage/pouch/medical,
 /turf/open/floor/plasteel/patterned/ridged,
 /area/ship/crew/office)
 "mH" = (
@@ -1690,6 +1693,7 @@
 /obj/structure/sign/warning/nosmoking/circle{
 	pixel_y = 32
 	},
+/obj/item/banner/medical/mundane,
 /turf/open/floor/plasteel/dark,
 /area/ship/medical)
 "pj" = (
@@ -2609,6 +2613,9 @@
 	},
 /obj/effect/turf_decal/industrial/traffic/corner{
 	dir = 4
+	},
+/obj/machinery/vending/wallmed{
+	pixel_y = -30
 	},
 /turf/open/floor/plasteel/patterned,
 /area/ship/cargo)

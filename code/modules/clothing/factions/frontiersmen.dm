@@ -30,12 +30,14 @@
 	name = "\improper Frontiersmen officer's uniform"
 	desc = "Worn by officers of the Frontiersmen pirate fleet. It's less comfortable than it looks."
 	icon_state = "frontier_officer"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
 
 /obj/item/clothing/under/frontiersmen/admiral
 	name = "\improper frontiersmen admiral uniform"
 	desc = "Worn by admirals of the Frontiersmen pirate fleet, adorned with a tasteful amount of gold and completed with a very-stylish all-white aesthetic. Quite snobby for a bunch of pirates."
 	icon_state = "frontier_admiral"
 	item_state = "frontier_admiral"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
 
 ////////////////////
 //Unarmored suits//

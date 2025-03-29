@@ -119,6 +119,7 @@
 	desc = "This is a special uniform providing camouflage to SolFed's marines. Im not sure why would they need blue camo in space tho."
 	icon_state = "solfed_camo"
 	item_state = "solfed_camo"
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
 
 /obj/item/clothing/under/solfed/camo/elysium
 	name = "Elysium brigade's camouflaged uniform"
@@ -132,6 +133,7 @@
 	icon_state = "solfed_formal"
 	item_state = "solfed_formal"
 	can_adjust = FALSE
+	armor = list("melee" = 10, "bullet" = 0, "laser" = 0,"energy" = 0, "bomb" = 0, "bio" = 0, "rad" = 0, "fire" = 30, "acid" = 30)
 
 /obj/item/clothing/under/solfed/formal/elysium
 	name = "Elysium Brigade formal uniform"

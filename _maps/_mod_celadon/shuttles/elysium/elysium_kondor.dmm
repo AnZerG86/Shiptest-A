@@ -197,6 +197,7 @@
 /obj/machinery/door/poddoor/preopen{
 	id = "bridge"
 	},
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "eZ" = (
@@ -303,6 +304,21 @@
 /obj/effect/decal/cleanable/dirt/dust,
 /obj/structure/closet/wall/directional/west,
 /obj/structure/rack,
+/obj/item/melee/baton/cattleprod/loaded{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/melee/baton/cattleprod/loaded{
+	pixel_x = 1;
+	pixel_y = -3
+	},
+/obj/item/melee/baton/cattleprod/loaded{
+	pixel_x = 1;
+	pixel_y = 3
+	},
+/obj/item/restraints/handcuffs/cable,
+/obj/item/restraints/handcuffs/cable,
+/obj/item/restraints/handcuffs/cable,
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
 "iV" = (
@@ -333,7 +349,7 @@
 /turf/open/floor/carpet/green,
 /area/ship/hallway/central)
 "jL" = (
-/turf/closed/wall/mineral/iron,
+/turf/closed/wall/r_wall,
 /area/ship/engineering/electrical)
 "jQ" = (
 /obj/structure/table/glass,
@@ -457,6 +473,7 @@
 	id = "bridge";
 	dir = 4
 	},
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/bridge)
 "mJ" = (
@@ -870,6 +887,7 @@
 	id = "window"
 	},
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "tE" = (
@@ -1037,11 +1055,11 @@
 /area/ship/cargo)
 "wL" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/closed/wall/rust,
+/turf/closed/wall/r_wall,
 /area/ship/cargo)
 "xe" = (
 /turf/closed/wall/r_wall/rust,
-/area/ship/bridge)
+/area/ship/hallway/central)
 "xH" = (
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -1259,7 +1277,7 @@
 /area/ship/cargo)
 "Ce" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/closed/wall/r_wall/rust,
+/turf/closed/wall/r_wall/syndicate,
 /area/ship/bridge)
 "Cm" = (
 /obj/effect/turf_decal/trimline/transparent/green/filled/line{
@@ -1312,8 +1330,8 @@
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "Dz" = (
-/turf/closed/wall/mineral/iron,
-/area/ship/storage/eva)
+/turf/closed/wall/r_wall,
+/area/ship/cargo)
 "DM" = (
 /obj/effect/turf_decal/trimline/transparent/green/filled/line{
 	dir = 1
@@ -1465,11 +1483,11 @@
 	dir = 10
 	},
 /obj/effect/decal/cleanable/dirt,
-/obj/machinery/holopad,
 /obj/effect/turf_decal/elysium_logo/two_one{
 	color = "#758967"
 	},
 /obj/effect/decal/cleanable/dirt/dust,
+/obj/machinery/holopad/emergency,
 /turf/open/floor/mineral/plastitanium,
 /area/ship/bridge)
 "HE" = (
@@ -1986,6 +2004,7 @@
 	icon_state = "pipe11-4"
 	},
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "Sz" = (
@@ -2169,6 +2188,7 @@
 /obj/machinery/door/poddoor/preopen{
 	id = "window"
 	},
+/obj/structure/grille,
 /turf/open/floor/plating,
 /area/ship/hallway/central)
 "XC" = (
@@ -2416,10 +2436,10 @@ ua
 LH
 It
 HF
-Dz
+EO
 "}
 (8,1,1) = {"
-SL
+Dz
 qZ
 Wh
 uk
@@ -2437,10 +2457,10 @@ Er
 UC
 Tw
 Hi
-Dz
+EO
 "}
 (9,1,1) = {"
-SL
+Dz
 aw
 Bu
 MA
@@ -2458,7 +2478,7 @@ DP
 fC
 NZ
 Cm
-Dz
+EO
 "}
 (10,1,1) = {"
 wA
@@ -2498,7 +2518,7 @@ aS
 Is
 fv
 AP
-nZ
+HE
 HE
 iV
 "}
@@ -2507,7 +2527,7 @@ iV
 iV
 wA
 IN
-SL
+IN
 SL
 wA
 wA
@@ -2529,7 +2549,7 @@ iV
 iV
 iV
 iV
-ry
+xe
 iO
 Oq
 op
@@ -2703,7 +2723,7 @@ qa
 Yd
 Hr
 jU
-xe
+qa
 iV
 iV
 iV

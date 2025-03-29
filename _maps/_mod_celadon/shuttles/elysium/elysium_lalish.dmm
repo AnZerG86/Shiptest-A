@@ -571,9 +571,9 @@
 	req_access = list(11)
 	},
 /obj/item/floor_painter,
-/obj/item/reagent_containers/glass/bottle/welding_fuel,
-/obj/item/stock_parts/manipulator,
 /obj/item/circuitboard/machine/ore_redemption,
+/obj/item/gun/ballistic/automatic/pistol/candor,
+/obj/item/ammo_box/magazine/m45/empty,
 /turf/open/floor/pod/dark,
 /area/ship/engineering/engines)
 "iY" = (
@@ -1084,7 +1084,8 @@
 /obj/structure/reagent_dispensers/fueltank,
 /obj/machinery/jukebox/boombox{
 	pixel_y = 8;
-	pixel_x = 1
+	pixel_x = 1;
+	layer = 3
 	},
 /obj/effect/turf_decal/industrial/warning/full,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
@@ -1264,6 +1265,7 @@
 /obj/structure/cable{
 	icon_state = "2-4"
 	},
+/obj/item/soap,
 /turf/open/floor/plating{
 	icon_state = "platingdmg1"
 	},
@@ -1852,6 +1854,7 @@
 	pixel_y = 5;
 	id = "lilash"
 	},
+/obj/item/storage/belt/skimitar/full,
 /turf/open/floor/plasteel/strongdark/airless,
 /area/ship/bridge)
 "Ck" = (
@@ -2206,8 +2209,15 @@
 	layer = 2.1
 	},
 /obj/structure/rack,
-/obj/item/soap,
 /obj/machinery/firealarm/directional/south,
+/obj/item/ammo_box/magazine/m45{
+	pixel_x = -5;
+	pixel_y = 2
+	},
+/obj/item/reagent_containers/glass/bottle/welding_fuel{
+	pixel_x = 8;
+	pixel_y = 3
+	},
 /turf/open/floor/plating{
 	icon_state = "platingdmg3"
 	},
