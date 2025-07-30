@@ -140,9 +140,9 @@ MARK: 5.56x45
 
 //Тупое название сурплус , будет брак или некачественное исполнение. Снижен урон , минимум пробития - не для продажи
 /obj/item/storage/box/ammo/a308/surplus
-	name = "Коробка бракованных патронов .308"
-	desc = "Не слишком качественные патроны калибра .308, хуже заводских но все еще годны."
-	icon_state = "a308_brak"
+	name = "A box of low-quality .308 ammo."
+	desc = "This worn box made from scrap materials says a lot about the quality of the ammunition in it."
+	icon_state = "a308box-sur"
 
 /obj/item/storage/box/ammo/a308/surplus/PopulateContents()
 	var/static/items_inside = list(
